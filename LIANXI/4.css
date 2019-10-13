@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+.zheng{
+    width: 600px;
+    margin: 60px auto;
+    background-color: aliceblue;
+}
+.zheng .zhu{
+    width: 90%;
+    padding: 30px 0 0 0;
+    border-left-color: red;
+    height: 100px;
+    margin: 0 5%;
+    border-bottom: 1px solid red;
+}
+.zheng .zhu .tu{
+    height: 80px;
+    width: 80px;
+    border: 1px solid red;
+    margin: 0 auto;
+    float: left;
+}
+.zheng .zhu .ti{
+    font-size: 15px;
+    height: 80px;
+    width: 436px;
+    float: left;
+    margin-left: 20px;
+
+}
+.zheng .zhu .ti .shang {
+    height: 65px;
+}
+.zheng .zhu .ti .shang .zuo{
+    float: left;
+}
+.zheng .zhu .ti .shang .you{
+    float: right;
+    opacity:0.5; 
+}
+.zheng .zhu .ti .xia{
+    float: left;
+    opacity:0.5; 
+}

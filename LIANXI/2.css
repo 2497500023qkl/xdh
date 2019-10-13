@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.zhu{
+    height: 600px;
+    width: 900px;
+    margin: 0 auto;
+}
+.zhu .tou1{
+    margin:20px auto 0 auto;
+    width: 25%;
+    height: 600px;
+    background-color: #000;
+    float: left;
+}
+.zhu .ti1{
+    margin:20px auto 0 auto;
+    width: 75%;
+    height: 600px;
+    background-color: dimgrey;
+    float: left;
+}
+.zhu .tou1 .tou{
+    height: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+.zhu .tou1 .tou .biao{
+    width: 200px;
+    padding:5%;
+    margin-top: 10px;
+}
+.zhu .tou1 .tou .biao .weng{
+    height: 30px;
+    width: 100%;
+    background-color: cadetblue;
+    border: 0px;
+}
+.zhu .tou1 .tou .nei{
+    padding:20px 30px;
+    width: 90%;
+    height: 20px;
+    color: #fff;
+}
+.zhu .tou1 .tou .nei1{
+    padding:20px 30px;
+    width: 90%;
+    margin-top: 20px;
+    height: 20px;
+    color: #fff;
+    background-color: blue;
+}
+.zhu .ti1 .ti{
+    height: 600px;
+    width: 100%;
+    margin:0 auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.zhu .ti1 .ti .dizhi{ 
+    width: 100%;
+    font-size: 20px;
+    padding: 20px 0 20px 40px;
+    background-color:    #fff;
+}
+.zhu .ti1 .ti .neirong{
+    width: 90%;
+    height: 450px;
+    margin:45px 5%;
+    background-color: #fff;
+}
+.zhu .ti1 .ti .neirong .neiti{
+    padding-top: 50px;
+    padding-left: 20px;
+}

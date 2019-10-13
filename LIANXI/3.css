@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.we{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    font-size: 5px;
+}
+.we .qw{
+    display: inline-flex;
+    flex-grow:1;
+    background-color: blue;
+    height: 20px;
+    width: 10px;
+    justify-content: center;
+    padding-top: 5px;
+}
+.tu{
+    display: flex;
+    width: 100%;
+    height: 44px;
+    background-color: blue;
+
+}
+.tu .tupian{
+    flex-grow:1;
+    display: inline-flex;
+    justify-content: center;
+}
+img{
+    width: 40px;
+    height: 40px;
+    border: 2px  solid red; 
+}
+.qwe{
+    width:44px;
+    justify-content: center;
+    display: inline-flex;
+    color: aliceblue;
+}
