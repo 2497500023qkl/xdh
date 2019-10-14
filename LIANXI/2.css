@@ -1,74 +1,85 @@
 body{
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 30px;
 }
 .zhu{
-    height: 600px;
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
 }
 .zhu .tou1{
     margin:20px auto 0 auto;
     width: 25%;
-    height: 600px;
+    min-height: 800px;
     background-color: #000;
     float: left;
 }
 .zhu .ti1{
     margin:20px auto 0 auto;
     width: 75%;
-    height: 600px;
+    min-height: 800px;
     background-color: dimgrey;
     float: left;
 }
 .zhu .tou1 .tou{
-    height: 90%;
+    min-height: 90%;
     width: 100%;
-    margin: 0 auto;
+    margin: 5% auto;
 }
 .zhu .tou1 .tou .biao{
-    width: 200px;
-    padding:5%;
-    margin-top: 10px;
+    min-height: 50px;
+    width: 80%;
+    margin:10% auto;
 }
 .zhu .tou1 .tou .biao .weng{
-    height: 30px;
+    height:50px;
     width: 100%;
+    font-size: 40px;
     background-color: cadetblue;
     border: 0px;
 }
 .zhu .tou1 .tou .nei{
-    padding:20px 30px;
-    width: 90%;
-    height: 20px;
+    padding: 0 10%;
+    margin: 0 auto;
+    width: 80%;
+    height: 80px;
+}
+.zhu .tou1 .tou span{
+    line-height:80px;
     color: #fff;
+    text-align: center;
 }
 .zhu .tou1 .tou .nei1{
-    padding:20px 30px;
-    width: 90%;
-    margin-top: 20px;
-    height: 20px;
-    color: #fff;
+    padding: 0 10%;
+    margin: 0 auto;
+    width: 80%;
+    height: 80px;
     background-color: blue;
 }
 .zhu .ti1 .ti{
-    height: 600px;
+    min-height: 600px;
     width: 100%;
     margin:0 auto;
-    padding-top: 0px;
-    padding-bottom: 10px;
 }
 .zhu .ti1 .ti .dizhi{ 
+    min-height: 100px;
     width: 100%;
     font-size: 20px;
-    padding: 20px 0 20px 40px;
     background-color:    #fff;
+}
+.zhu .ti1 .ti .dizhi img{
+    margin: 20px 0 0 60px;
+    height: 60px;
+}
+.zhu .ti1 .ti .dizhi span{
+    text-align: center;
+    padding-left: 50px;
+    line-height:100px;
 }
 .zhu .ti1 .ti .neirong{
     width: 90%;
-    height: 450px;
-    margin:45px 5%;
+    min-height: 560px;
+    margin:70px 5%;
     background-color: #fff;
 }
 .zhu .ti1 .ti .neirong .neiti{
